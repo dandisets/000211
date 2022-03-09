@@ -22,15 +22,54 @@ assetsSummary:
     name: Human
     schemaKey: SpeciesType
   variableMeasured: []
-citation: ', Derek (2022) UHN whole-cell excitability recordings from human cortical
-  neurons (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000211/draft'
+citation: Howard, Derek; Chameh, Homeira Moradi; Valiante, Taufik; Tripathy, Shreejoy
+  (2022) UHN whole-cell excitability recordings from human cortical neurons (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000211/draft
 contributor:
-- affiliation: []
-  email: derekhoward@gmail.com
+- affiliation:
+  - name: Krembil Centre for Neuroinformatics, Centre for Addiction and Mental Health
+    schemaKey: Affiliation
+  email: derek.howard@camh.ca
   includeInCitation: true
-  name: ', Derek'
+  name: Howard, Derek
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
+  - dcite:DataCurator
+  schemaKey: Person
+- affiliation:
+  - name: Krembil Brain Institute, University Health Network
+    schemaKey: Affiliation
+  email: homeira.moradi@uhnresearch.ca
+  includeInCitation: true
+  name: Chameh, Homeira Moradi
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- affiliation:
+  - name: Krembil Brain Institute, University Health Network
+    schemaKey: Affiliation
+  email: taufik.valiante@uhn.ca
+  identifier: 0000-0002-3443-3790
+  includeInCitation: true
+  name: Valiante, Taufik
+  roleName:
+  - dcite:DataCollector
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation:
+  - name: Krembil Centre for Neuroinformatics, Centre for Addiction and Mental Health
+    schemaKey: Affiliation
+  email: shreejoy.tripathy@camh.ca
+  includeInCitation: true
+  name: Tripathy, Shreejoy
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCurator
+  - dcite:Supervision
   schemaKey: Person
 dateCreated: '2021-12-24T18:20:54.794622+00:00'
 description: Whole-cell patch clamp recordings from surgically resected human cortical
@@ -38,7 +77,10 @@ description: Whole-cell patch clamp recordings from surgically resected human co
 ethicsApproval: []
 id: DANDI:000211/draft
 identifier: DANDI:000211
-keywords: []
+keywords:
+- excitability
+- human
+- cortex
 license:
 - spdx:CC0-1.0
 manifestLocation:
