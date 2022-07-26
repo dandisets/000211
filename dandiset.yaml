@@ -7,21 +7,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 252235346
-  numberOfFiles: 129
-  numberOfSubjects: 54
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
-    name: Human
-    schemaKey: SpeciesType
-  variableMeasured: []
 citation: Howard, Derek; Chameh, Homeira Moradi; Valiante, Taufik; Tripathy, Shreejoy
   (2022) UHN whole-cell excitability recordings from human cortical neurons (Version
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000211/draft
@@ -88,7 +76,7 @@ manifestLocation:
 name: UHN whole-cell excitability recordings from human cortical neurons
 protocol: []
 relatedResource: []
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
